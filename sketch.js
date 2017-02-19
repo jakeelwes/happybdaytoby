@@ -34,6 +34,15 @@ function draw() {
   rect(0,height-height/p+up,width,height);
   rect(0,0,width/pw,height);
   rect(width-width/pw,0,width,height);
+
+  // fill(0,20);
+
+  // stroke(0);
+  // line(0,0, mouseX, mouseY)
+  // line(0,height, mouseX, mouseY)
+  // line(width,0, mouseX, mouseY)
+  // line(width,height, mouseX, mouseY)
+
   //
   // textSize(80);
   // fill(255,50);
@@ -54,7 +63,6 @@ function newPics() {
   if(frameCount%Math.floor(Math.random() * 100)==0){
     counter =  Math.floor(Math.random() * numFiles);
     img1 = loadImage("Pics/"+counter+".jpg");
-    console.log("bang")
   }
   if(frameCount%Math.floor(Math.random() * 100)==0){
     counter =  Math.floor(Math.random() * numFiles);

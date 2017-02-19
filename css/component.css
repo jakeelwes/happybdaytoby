@@ -60,22 +60,22 @@
 
 /* Colors */
 
-.ot-letter-left { background: #fff; }
+.ot-letter-left { background: #eee; }
 .ot-letter-left span { text-shadow: 1px 4px 6px #999, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #999; }
 .ot-letter-left span:after { color: #ccc; }
 .ot-letter-left:hover span:after { color: #666; }
 
-.ot-letter-right { background: #fff; }
+.ot-letter-right { background: #ddd; }
 .ot-letter-right span { text-shadow: 1px 4px 6px #999, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #999; }
 .ot-letter-right span:after { color: #ddd; }
 .ot-letter-right:hover span:after { color: #fff; }
 
-.ot-letter-top { background: #fff; }
+.ot-letter-top { background: #ccc; }
 .ot-letter-top span { text-shadow: 1px 4px 6px #999, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #999; }
 .ot-letter-top span:after { color: #aaa; }
 .ot-letter-top:hover span:after { color: #777; }
 
-.ot-letter-bottom { background: #fff; }
+.ot-letter-bottom { background: #aaa; }
 .ot-letter-bottom span { text-shadow: 1px 4px 6px #999, 0 0 0 hsla(0, 0%, 0%, 0.3), 1px 4px 6px #999; }
 .ot-letter-bottom span:after { color: #bbb; }
 .ot-letter-bottom:hover span:after { color: #fff; }
